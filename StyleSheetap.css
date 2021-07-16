@@ -1,0 +1,405 @@
+﻿body {
+    margin: 0 auto;
+    font-family: 'Noto Sans JP', sans-serif;
+    background-color: #cfcfcf;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    -o-animation: fadein 2s; /* Opera */
+}
+
+
+
+
+.banner {
+    background-color: #dadadb;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    color: royalblue;
+    font-style: italic;
+    font-size: 68px;
+    font-weight: 900;
+    text-align: center;
+    text-shadow: -2px 2px 2px black;
+}
+
+h2 {
+    font-family: Arial,sans-serif;
+    color: royalblue;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.b1 {
+    display: flex;
+    max-width: 1600px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.logo1 {
+    background: rgba(0, 0, 0, 0.3);
+    width:400px;
+    margin:0 auto;
+    padding:20px;
+}
+
+    .logo1 h1 {
+        color: white;
+        font-style: normal;
+        text-shadow: none;
+        margin:0;
+    }
+
+    .logo1 p{
+        text-align:center;
+        color:white;
+        font-weight:bold;
+        line-height:2px;
+    }
+
+
+
+.lazy {
+    width: 100%;
+    margin: 0 auto;
+    background-image: url("IMG_9246.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    margin-bottom: 100px;
+}
+
+.en {
+    float: right;
+    margin-right: 20px;
+    margin-top: -90px;
+    color: black;
+
+    text-decoration: none;
+}
+
+    .en a {
+        color: black;
+
+        text-decoration: none;
+    }
+
+    #active1{
+        font-weight:bold;
+        text-decoration:underline;
+    }
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.logo img{
+    width:100px;
+    float:left;
+   margin-left:20px;
+}
+
+nav {
+    width: 100%;
+    font-size: 20px;
+    background: rgba(0, 0, 0, 0.3);
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-decoration: none;
+    margin-bottom:100px;
+}
+
+
+#active a {
+  font-weight:bold;
+  text-decoration:none;
+}
+
+#active {
+ 
+    text-decoration: none;
+}
+
+nav ul {
+    list-style-type: none;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    padding: 0;
+}
+
+.dropdwn {
+    position: relative;
+    display: inline-block;
+}
+
+li a {
+    text-decoration: none;
+    color: #ededed;
+}
+
+#hid {
+    pointer-events: none;
+}
+
+    #hid:hover {
+
+        pointer-events: none;
+    }
+
+.ul1 li {
+    display: inline-block;
+}
+
+
+    .ul1 li a:hover {
+        background: rgba(0, 0, 0, 0.5);
+    }
+
+    .ul1 li a {
+        display: inline-block;
+        padding: 20px;
+    }
+
+.ul2 {
+    display: none;
+    position: absolute;
+}
+
+    .ul2 li {
+        display: block;
+    }
+
+        .ul2 li a {
+            display: block;
+            color: white;
+            width: 150px;
+            text-align: left;
+            background: rgba(0, 0, 0, 0.3);
+        }
+
+.dropdwn:hover .ul2 {
+    display: block;
+}
+
+
+
+footer {
+    width: 100%;
+    background-color: royalblue;
+    text-align: center;
+    color: #ededed;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    bottom: 0px;
+    margin-top:100px;
+}
+
+.bod {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 80px;
+}
+
+.im {
+   width:100%;
+    margin: 0 auto;
+    padding-bottom: 135px;
+    padding-top: 120px;
+    text-align: center;
+    color: #383838;
+    font-size: 20px;
+}
+
+pre {
+    font-family: Arial,sans-serif;
+    font-weight: normal;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    color: royalblue;
+    font-style: italic;
+    font-size: 68px;
+    font-weight: 900;
+    text-align: center;
+    text-shadow: -2px 2px 2px black;
+}
+
+h2 {
+    font-family: Arial,sans-serif;
+    color: royalblue;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+
+h3 {
+    color: royalblue;
+}
+
+#l1 {
+    list-style-type: disc;
+    padding-left: 90px;
+}
+
+.d2 {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: normal;
+}
+
+    .d2 img {
+        width: 20%;
+        margin: 0 auto;
+    }
+
+.im li {
+    margin-bottom: 10px;
+}
+
+#h33 {
+    margin-top: 50px;
+}
+
+.im a {
+    color: royalblue;
+    text-decoration: none;
+    margin-bottom:20px;
+    
+}
+
+    .im a:visited {
+        text-decoration: line-through;
+    }
+
+    .im a:hover {
+        font-style: italic;
+        color: #7096ff;
+    }
+
+.icon {
+    position: relative;
+    bottom: 0px;
+}
+
+.im{
+    background: rgba(252, 252, 252, 0.6);
+    padding: 15px;
+    margin-top: 50px;
+    box-shadow: -10px 10px 8px #888888;
+    /*opacity: 0.6;
+    transition: 0.3s;*/
+}
+
+i {
+}
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 100px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: 2px solid royalblue; /* Remove borders */
+    outline: none; /* Remove outline */
+    color: royalblue; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding-top: 5px; /* Some padding */
+    border-radius: 50px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+    background-color: #cfcfcf;
+}
+
+@media(min-width:1200px) {
+
+    table {
+        margin: 0 auto;
+        border: 1px solid royalblue;
+        border-collapse: collapse;
+      
+    }
+
+    tr, th, td {
+        border: 1px solid royalblue;
+        border-collapse: collapse;
+        padding:5px;
+    }
+
+    th {
+        background-color: lightblue;
+       
+    }
+
+    table a {
+        width: 100%;
+    }
+
+    .im ul{
+        display:none;
+    }
+
+    table p{
+        color:royalblue;
+    }
+}
+
+@media(max-width:1199px){
+    table{
+        display:none;
+    }
+
+    .im ul{
+        text-align:left;
+        width:100%;
+        margin:0 auto;
+    }
+
+}
+

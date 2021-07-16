@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>IB Nujic-Contact</title>
+    <link rel="stylesheet" type="text/css" href="StyleSheetk.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+    <link rel="icon" href="icon.png">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+</head>
+<body>
+    <header class="lazy">
+	<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.1.min.js">
+</script>
+<script>
+$(document).ready(function() {
+    $('.lazy').animate({opacity: 0}, 0).css({'background-image': 'url("IMG_9246.png");'}).animate({opacity: 1}, 500);
+});
+</script>
+
+  <nav>
+            <div class="logo"><img src="Untitled-4.png"</div>
+            <ul class="ul1">
+                <li><a href="index-en.html">Home</a></li>
+                <li><a href="hsim2d-en.html">H_sim-2D</a></li>
+
+                <li>
+                    <a href="about-us.html">About us</a>
+                </li>
+
+
+                <li class="dropdwn">
+                    <a id="hid" href="#">References</a> <ul class="ul2">
+                        <li>
+                            <a href="projectlist.html">Project list</a>
+                        </li>
+
+                        <li><a href="articles.html">Articles</a></li>
+                        <li><a href="highlighted.html">Highligted projects</a></li>
+                    </ul>
+                </li>
+                <li  id="active"><a href="contact.html">Contact</a></li>
+
+                </li>
+            </ul>
+
+        </nav>
+        <div class="en">
+            <a link href="kontakt.html">GER</a> /
+            <a id="active1" link href="#">EN</a>
+        </div>
+
+        <div class="logo1">
+            <h1>H_SIM-2D</h1>
+           <p>The model for water management</p>
+            <p>Exact, robust and very fast</p>
+        </div>
+
+
+
+    </header>
+    <div class="bod">
+        <div class="im">
+            <img src="icon.png" />
+            <h3>Contact</h3>
+            <h3>IB-NUJIĆ j.d.o.o.</h3>
+            <pre>Stari Laz 23F
+51314, Croatia</pre>
+            <p>Email: <a href="mailto:office@ib-nujic.de">office@ib-nujic.de</a></p>
+            <h4> Support</h4>
+            <p> Tel.: 00385 1 4242 071 </p>
+			<p>
+                Cell.:  00385 99 560 7184
+            </p>
+			
+        </div>
+        <span>
+            <img src="Nujic_Zundel.jpg" />
+        </span>
+
+        <span class="icon">
+            <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-arrow-up"></i></button>
+
+            <script>
+                //Get the button
+                var mybutton = document.getElementById("myBtn");
+
+                // When the user scrolls down 20px from the top of the document, show the button
+                window.onscroll = function () { scrollFunction() };
+
+                function scrollFunction() {
+                    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                        mybutton.style.display = "block";
+                    } else {
+                        mybutton.style.display = "none";
+                    }
+                }
+
+                // When the user clicks on the button, scroll to the top of the document
+                function topFunction() {
+                    document.body.scrollTop = 0;
+                    document.documentElement.scrollTop = 0;
+                }
+            </script>
+
+        </span>
+    </div>
+
+    <footer>
+
+        ©Copyright IB-Nujic - All rights reserved
+        <br />Webdesign by Kristina Nujic
+    </footer>
+</body>
+</html>

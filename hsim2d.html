@@ -1,0 +1,155 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>IB Nujic-H_sim-2D</title>
+    <link rel="stylesheet" type="text/css" href="StyleSheethsim2d.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+    <link rel="icon" href="icon.png">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+</head>
+<body>
+   <body>
+        <header class="lazy">
+	<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.1.min.js">
+</script>
+<script>
+$(document).ready(function() {
+    $('.lazy').animate({opacity: 0}, 0).css({'background-image': 'url("IMG_9246.png");'}).animate({opacity: 1}, 2700);
+});
+</script>
+
+
+        <nav>
+            <div class="logo"><img src="Untitled-4.png"</div>
+            <ul class="ul1">
+                <li><a href="index.html">Home</a></li>
+                <li id="active"><a href="hsim2d.html">H_sim-2D</a></li>
+
+                <li>
+                    <a href="ueber-uns.html">Über uns</a>
+                </li>
+
+
+                <li class="dropdwn">
+                    <a id="hid" href="#">Referenzen</a> <ul class="ul2">
+                        <li>
+                            <a href="projektliste.html">Projektliste</a>
+                        </li>
+
+                        <li><a href="vortraege-artikel.html">Vorträge/Artikel</a></li>
+                        <li><a href="ausgewaehlte-projekte.html">Ausgewählte Projekte</a></li>
+                    </ul>
+                </li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+
+                </li>
+            </ul>
+        </nav>
+		
+		<div class="en">
+            <a id="active1" link href="#">GER </a> /
+            <a link href="hsim2d-en.html">EN</a>
+        </div>
+
+
+
+        <div class="logo1">
+            <h1>H_SIM-2D</h1>
+            <p>Das Modell für die Wasserwirtschaft</p>
+            <p>Genau, robust und sehr schnell</p>
+        </div>
+
+    </header>
+	
+	<div class="flex-container f">
+
+    <div class="bod">
+	<div class="im">
+        <div class="im1">
+
+            <h3>Wesentliche Merkmale</h3>
+            <ul>
+                <li><highlight>Impliziter Ansatz</highlight> → ermöglicht größere Zeitschritte (schnelles Rechnen).</li>
+                <li>Sehr gute Parallelisierung und Vektorisierung (auf Supercomputer mit bis zu 256 Prozessoren entwickelt und geprüft), Testergebnisse auf Anfrage.</li>
+                <li>
+                    <highlight>Extrem kurze Rechenzeiten</highlight>: auf neueren CPUs / Workstations ca. 10 bis 20 mal schneller als explizite Modelle.<ul>
+                        <li>eignet sich sehr gut für <highlight>operationellen Einsatz</highlight>.</li>
+                        <li>Sehr <highlight>große hochauflösende Modelle</highlight> (bis 50 Millionen Punkte / Elemente und mehr) können relativ <highlight>schnell berechnet</highlight> werden.</li>
+                        <li><highlight>Langzeitsimulationen</highlight> können <highlight>in kürzer Zeit</highlight> erfolgreich durchgeführt werden.</li>
+
+                    </ul>
+                </li>
+                <li><highlight>Unstrukturierte Netze</highlight>, bestehend aus Dreieck- und Viereckelementen ermöglichen eine genaue Anpassung an <highlight>Strukturverläufe</highlight> im Gebiet.</li>
+                <li>Konservative Formulierung der  Flachwassergleichungen →  <highlight>Massen- und Impulserhaltung</highlight>.</li>
+                <li>ENO Verfahren in Kombination mit Streamline-Diffusion → <highlight>hohe Genauigkeit</highlight> und sehr robust im Einsatz.</li>
+                <li>Gleichzeitig auftretende schießende und strömende Fließzustände - mit und ohne Wechselsprünge - können berechnet werden.</li>
+            </ul>
+            <p>Eine Abflusssimulation mit 5 Millionen Punkte (Punktabstand um 1m, Simulationszeit: 90.000 Sekunden) ist z.B. auf einer älteren Workstation* in wenigen Stunden abgeschlossen. Für die genaueren Angaben über die vorhandenen Rechenzeiten sowie zum Verfahren selbst, können Sie uns gerne Kontaktieren.</p>
+            <p>* Workstation mit 2 x Intel(R) Xeon(R) CPU E5-2690 v3 @ 2.60GHz; (12 physische Cores per CPU - Thread(s) per core: 2.</p>
+            <br /></div>
+			<div class="im2">
+            <h3>Zusätzliche Hinweise zu H_SIM Modellfamilie</h3>
+            <ul>
+                <li>Aufgrund der kurzen Rechenzeiten könnte ein <highlight>Großteil der bestehenden 2d-Modelle</highlight> bereits jetzt für die <highlight>Echtzeitsimulation</highlight> bzw. für den operationellen Einsatz <highlight>direkt verwendet</highlight> werden.</li>
+                <li>Die <highlight>Modellerstellung</highlight> verläuft voll <highlight>automatisch</highlight>, ähnlich wie bei unserem früheren Modell HYDRO_AS-2D, jedoch ohne so starke Ausdünnung von Laserdaten (wenn überhaupt).</li>
+                <li><highlight>Aktualisierung</highlight> eines solchen Modells z.B. infolge aktueller Laserdaten, ist <highlight>wesentlich einfacher</highlight> und würde großteils automatisch erfolgen. Der Anwender soll nur noch überprüfen, ob sich an den Stellen wo Randbedingungen und Bauwerke definiert sind, etwas geändert hat und dort. evtl. Anpassungen vornehmen.</li>
+                <li>Die <highlight>Modellbedienung</highlight> erfolgt über die <highlight>SMS Oberfläche</highlight>, ähnlich wie früher. Es wird derzeit ansonsten gemeinsam mit einem Vertriebspartner von ARCView geprüft, in wieweit eine direkte Anbindung an diese Systeme möglich wäre, vor allem im Hinblick auf Sturzfluten und operationellen Einsatz.</li>
+                <li>Derzeitiges Modell verwendet gemeinsamen Speicher (sog. shared memory model). Eine <highlight>MPI- Modellversion</highlight> (sog. distributed memory model), die verteilt auf mehreren Rechner mit eigenem Speicher läuft, soll voraussichtlich Mitte des nächsten Jahres fertig gestellt werden. Hierdurch ist es dann zusätzlich mit einer bedeutenden Steigerung der Rechen-geschwindigkeit zu rechnen.</li>
+                <li>Eine <highlight>GPU Version</highlight> sollte ebenfalls bis ca. Mitte des nächsten Jahres fertig gestellt werden.</li>
+                <li>In der derzeitigen Programmversion ist nur reine Strömungsmodellierung implementiert. In folgenden Jahren folgt dann die Entwicklung der Stofftransportmodelle (Langzeitsimulation für längere Fließstrecken).</li>
+                <li>Außerdem arbeiten wir zusammen mit der TU Rijeka an einem 3d- bzw. an einem gekoppelten 2d- /3d-Modell (Fertigstellung voraussichtlich in 2 bis 4 Jahren).</li>
+            </ul></div>
+            <br /><p>Durchströmung eines Buhnenfeldes:</p>
+            <span class="s3">
+                <figure>
+                    <figcaption>a) Geschwindigkeiten</figcaption><br />
+                    <img src="Geschw_2.jpg" />
+
+                </figure>
+            </span>
+            <span class="s3">
+                <figure>
+                    <figcaption>b) Stromlinien (mittels Tracers dargestellt)</figcaption>
+                    <br /><img src="gif.gif" />
+
+                </figure>
+            </span>
+
+        </div></div>
+        <span class="icon">
+            <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-arrow-up"></i></button>
+
+            <script>
+                //Get the button
+                var mybutton = document.getElementById("myBtn");
+
+                // When the user scrolls down 20px from the top of the document, show the button
+                window.onscroll = function () { scrollFunction() };
+
+                function scrollFunction() {
+                    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                        mybutton.style.display = "block";
+                    } else {
+                        mybutton.style.display = "none";
+                    }
+                }
+
+                // When the user clicks on the button, scroll to the top of the document
+                function topFunction() {
+                    document.body.scrollTop = 0;
+                    document.documentElement.scrollTop = 0;
+                }
+            </script>
+
+        </span>
+    </div>
+
+    <footer>
+
+        ©Copyright IB-Nujic - All rights reserved
+        <br />Webdesign by Kristina Nujic
+    </footer>
+</body>
+</html>

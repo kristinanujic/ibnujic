@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>IB Nujic-About Us</title>
+    <link rel="stylesheet" type="text/css" href="StyleSheetus.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+    <link rel="icon" href="icon.png">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+</head>
+<body>
+    <header class="lazy">
+	<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.1.min.js">
+</script>
+<script>
+$(document).ready(function() {
+    $('.lazy').animate({opacity: 0}, 0).css({'background-image': 'url("IMG_9246.png");'}).animate({opacity: 1}, 2700);
+});
+  
+</script>
+
+        <nav>
+            <div class="logo"><img src="Untitled-4.png"</div>
+            <ul class="ul1">
+                <li><a href="index-en.html">Home</a></li>
+                <li><a href="hsim2d-en.html">H_sim-2D</a></li>
+
+                <li  id="active">
+                    <a href="about-us.html">About us</a>
+                </li>
+
+
+                <li class="dropdwn">
+                    <a id="hid" href="#">References</a> <ul class="ul2">
+                        <li>
+                            <a href="projectlist.html">Project list</a>
+                        </li>
+
+                        <li><a href="articles.html">Articles</a></li>
+                        <li><a href="highlighted.html">Highligted projects</a></li>
+                    </ul>
+                </li>
+                <li><a href="contact.html">Contact</a></li>
+
+                </li>
+            </ul>
+
+        </nav>
+        <div class="en">
+            <a link href="ueber-uns.html">GER</a> /
+            <a id="active1" link href="#">EN</a>
+        </div>
+
+        <div class="logo1">
+            <h1>H_SIM-2D</h1>
+            <p>The model for water management</p>
+            <p>Exact, robust and very fast</p>
+        </div>
+
+
+    </header>
+
+
+    <div class="#top"></div>
+    <div class="bod">
+        <div class="im">
+		<div class="im1">
+            <h3>About Us</h3>
+
+            <p>
+                The engineering office Dr. Nujic was founded in Germany in 1999. As a specialized office for flow modeling, we have worked on numerous projects over the past 20 years and developed various models for use in water management, including Hydro_AS-2D, Hydro_GS-2D, Hydro_FT-2D, Laser_AS-2D, flow network generator, etc. Since then, more than 400 hundred institutions worldwide have successfully implemented the models.
+            </p>
+
+            <p>Since 2012. we only deal with software development. So we worked on a GPU version in the period from 2012 to 2014 in the hope that we would be able to create a faster model. Unfortunately, the GPU version did not produce the desired result after its completion. Shortly afterwards, the previously mentioned models were sold to the Hydrotec company in 2014. From then on, they will further develop and market them.</p>
+            <p>Since then, we have been working on a new generation of flow models (called H_SIM), which, thanks to an implicit approach and high parallelization and vectorization / HPC, enable fast calculations.</p>
+            The engineering office Dr. Nujic in Germany was closed at the end of 2017. A little after that, IB-NUJIC j.d.o.o. was opened in Croatia. The office now exists as a family business:<ul>
+                <li id="li1">Dr.-Ing. Marinko Nujić</li>
+                <li id="li1">Dipl. Mat. / Phys. Kinga Nujić</li>
+                <li id="li1">Kristina Nujić (IT student)</li>
+                <li id="li1">Katarina Nujić (IT student)</li>
+            </ul>
+            <div class="imeg">
+                <img src="Auszeichnung_WWA-Ro.png" />
+            </div>
+            <h3>Services</h3>
+            <ul>
+                <li>Software development</li>
+                <li>Schooling</li>
+                <li>Technical Support</li>
+                <li>Consulting</li>
+                <li>
+                    Flow and sediment transport modeling
+                </li>
+                <li>Webdesign</li>
+            </ul>
+
+
+        </div></div>
+        <!-- <iframe src="C:\Users\kn97\Documents\Portfolio_References\HTML+CSS\tata\SMS_Data_Visualization.pdf" width="100%" height="300px"></iframe>
+        <a href="C:\Users\kn97\Documents\Portfolio_References\HTML+CSS\tata\SMS_Data_Visualization.pdf" target="_blank">PDF</a> -->
+        <span class="icon">
+            <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-arrow-up"></i></button>
+
+            <script>
+                //Get the button
+                var mybutton = document.getElementById("myBtn");
+
+                // When the user scrolls down 20px from the top of the document, show the button
+                window.onscroll = function () { scrollFunction() };
+
+                function scrollFunction() {
+                    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                        mybutton.style.display = "block";
+                    } else {
+                        mybutton.style.display = "none";
+                    }
+                }
+
+                // When the user clicks on the button, scroll to the top of the document
+                function topFunction() {
+                    document.body.scrollTop = 0;
+                    document.documentElement.scrollTop = 0;
+                }
+            </script>
+
+        </span>
+    </div>
+
+    <footer>
+
+        ©Copyright IB-Nujic - All rights reserved
+        <br />Webdesign by Kristina Nujic
+    </footer>
+</body>
+</html>

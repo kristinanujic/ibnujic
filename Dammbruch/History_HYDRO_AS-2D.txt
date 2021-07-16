@@ -1,0 +1,34 @@
+
+A few more words about HYDRO_AS-2D
+==================================
+
+HYDRO_AS-2D originates from a model called FLOODSIM which I have developed 
+during my research work at the Federal Armed Forces Univ. in Munich as the main part of my 
+doctoral thesis.
+
+HYDRO_AS-2D is in fact a further development and optimisation of algorithms / methods 
+implemented in the model FLOODSIM.
+
+FLOODSIM has been validated in an objective and neutral way within a framework of the
+European project called CADAM (Concerted Action on DAm - Break modelling).
+
+Objective and neutral way means the modellers did not know anything about results of measurements. 
+They just got a data needed for performing runs with their models like: geometry, topography, 
+boundary conditions applied, positions of gauges, etc. After performing modelling, modellers sent 
+their results to organiser who performed comparison with the measurements. Afterwards the results 
+were presented by organiser at the conference meeting.
+
+More information on this project can be found in the internet (see the address below).
+
+--------------------------------------------------------------------------------
+http://www.hrwallingford.co.uk/projects/CADAM
+
+
+CADAM Proceedings 
+--------------------------------------------------------------------------------
+Milan Meeting
+6-7 May 1999
+
+http://www.hrwallingford.co.uk/projects/CADAM/CADAM/Milan/Contents.html
+
+=====================================================================
